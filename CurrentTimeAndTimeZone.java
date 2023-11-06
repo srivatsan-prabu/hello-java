@@ -7,7 +7,7 @@ public class CurrentTimeAndTimeZone {
         ZonedDateTime currentTime = ZonedDateTime.now();
 
         // Define a date and time format
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss zzzz");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, yyyy-MM-dd HH:mm:ss zzzz");
 
         // Format and print the current time and time zone
         String formattedTime = currentTime.format(formatter);
